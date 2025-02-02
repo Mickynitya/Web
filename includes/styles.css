@@ -1,0 +1,39 @@
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.neon-btn {
+    background-color: #00FF00;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+}
+
+.gift-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #222;
+    border: 2px solid #00FF00;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.neon-link {
+    color: #00FF00;
+    text-decoration: none;
+}
